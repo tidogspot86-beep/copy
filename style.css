@@ -627,8 +627,19 @@ body>footer p {
     }
 
     .logo {
-        width: min(240px, 80vw);
+        width: min(160px, 45vw);
         height: auto;
+    }
+
+    .cta {
+        margin: 40px auto;
+        padding: 30px 20px;
+    }
+
+    .cta .button {
+        white-space: normal;
+        width: 100%;
+        text-align: center;
     }
 
     .hero-content,
