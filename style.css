@@ -613,6 +613,10 @@ body>footer p {
         flex-direction: column;
     }
 
+    .class-cards {
+        align-items: center;
+    }
+
     header,
     .hero {
         padding: 20px 6%;
