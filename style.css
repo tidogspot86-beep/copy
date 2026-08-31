@@ -768,13 +768,11 @@ body>footer p {
         text-align: center;
     }
 
-    .training-options,
     .plans {
         padding-left: 6%;
         padding-right: 6%;
     }
 
-    .training-types,
     .plan-cards {
         align-items: center;
         flex-direction: column;
@@ -1377,4 +1375,11 @@ body>footer p {
 
         overflow-wrap: break-word;
     }
+
+    .plan-card ul {
+    margin: 40px 0 80px 0;
+    color: var(--main-text);
 }
+}
+
+
