@@ -106,30 +106,8 @@ button:hover {
     background-color: #2563eb;
 }
 
-/* CLASSES / INFORMATION */
 
-.classes {
-    text-align: center;
-    margin: 10% 0;
-}
-
-.classes h2,
-.classes p {
-    color: var(--main-text);
-}
-
-.classes h2 {
-    font-size: 36px;
-    margin: 50px 0 20px;
-}
-
-.classes p {
-    font-size: 18px;
-    margin-bottom: 50px;
-    text-align: center;
-}
-
-/* CARD CARDS */
+/* ClASS CARDS */
 
 .class-cards {
     display: flex;
@@ -172,111 +150,6 @@ button:hover {
     padding: 10% 20%;
     font-size: 36px;
     text-align: center;
-}
-
-/* MEMBERSHIP PLANS */
-
-.training-options {
-    background-color: var(--hero-header-text);
-    text-align: center;
-    padding: 80px 12%;
-}
-
-.training-types {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    background-color: var(--main-text);
-    border-radius: 0 0 12px 12px;
-}
-
-aside {
-    width: 350px;
-    padding: 40px;
-    text-align: center;
-    color: var(--hero-header-text);
-}
-
-.btn-classes {
-    margin: 15px 0;
-}
-
-/*PLAN CARDS*/
-
-.plans {
-    background-color: var(--hero-header-text);
-    text-align: center;
-    padding: 80px 12%;
-}
-
-.plans>h2 {
-    font-size: 36px;
-    color: var(--main-text);
-    margin-bottom: 10px;
-}
-
-.plans>p {
-    max-width: 650px;
-    margin: 0 auto 50px;
-    color: var(--main-text);
-    font-size: 18px;
-}
-
-.plan-cards {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 35px;
-}
-
-.plan-card {
-    width: 350px;
-    max-width: 100%;
-    padding: 40px;
-    border: 2px solid var(--main-text);
-    border-radius: 12px;
-    text-align: center;
-    background-color: var(--hero-header-text);
-}
-
-.plan-card h3 {
-    font-size: 24px;
-    color: var(--main-text);
-    margin-bottom: 8px;
-}
-
-.plan-offer {
-    color: var(--btn-text-color);
-    font-weight: bold;
-    margin-bottom: 20px;
-}
-
-.plan-price {
-    color: var(--secondary-color);
-    margin-bottom: 25px;
-}
-
-.plan-price span {
-    display: block;
-    color: var(--main-text);
-    font-size: 42px;
-    font-weight: bold;
-}
-
-.plan-card ul {
-    margin: 40px 0 80px 0;
-    color: var(--main-text);
-}
-
-.plan-card li {
-    margin-bottom: 10px;
-}
-
-.plan-img {
-    width: 400px;
-    max-width: 100%;
-    height: 600px;
-    border-radius: 10px;
 }
 
 /*CTA */
@@ -1047,6 +920,83 @@ body>footer p {
 
 .classes-page .schedule-button:hover {
     background-color: var(--main-text);
+}
+/*PLAN CARDS*/
+
+.plans {
+    background-color: var(--hero-header-text);
+    text-align: center;
+    padding: 80px 12%;
+}
+
+.plans>h2 {
+    font-size: 36px;
+    color: var(--main-text);
+    margin-bottom: 10px;
+}
+
+.plans>p {
+    max-width: 650px;
+    margin: 0 auto 50px;
+    color: var(--main-text);
+    font-size: 18px;
+}
+
+.plan-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 35px;
+}
+
+.plan-card {
+    width: 350px;
+    max-width: 100%;
+    padding: 40px;
+    border: 2px solid var(--main-text);
+    border-radius: 12px;
+    text-align: center;
+    background-color: var(--hero-header-text);
+}
+
+.plan-card h3 {
+    font-size: 24px;
+    color: var(--main-text);
+    margin-bottom: 8px;
+}
+
+.plan-offer {
+    color: var(--btn-text-color);
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.plan-price {
+    color: var(--secondary-color);
+    margin-bottom: 25px;
+}
+
+.plan-price span {
+    display: block;
+    color: var(--main-text);
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.plan-card ul {
+    margin: 40px 0 80px 0;
+    color: var(--main-text);
+}
+
+.plan-card li {
+    margin-bottom: 10px;
+}
+
+.plan-img {
+    width: 400px;
+    max-width: 100%;
+    height: 600px;
+    border-radius: 10px;
 }
 
 
